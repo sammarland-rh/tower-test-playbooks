@@ -1,0 +1,6 @@
+---
+- hosts: node01
+  remote_user: root
+  tasks:
+  - name: Ping servers
+    ping: 
