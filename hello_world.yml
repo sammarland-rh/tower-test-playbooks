@@ -1,5 +1,5 @@
 ---
-- hosts: openshift-nodes
+- hosts: nodes
   remote_user: root
   tasks:
   - name: Ping servers
